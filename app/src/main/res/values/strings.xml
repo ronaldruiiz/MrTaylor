@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Mr. Taylor</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="large_text">
+        "INTEGRANTES:\n\n"
+        "-RONAL ADRIAN RUIZ AVILA\n"
+        "-ALEJANDRO QUIMIS\n"
+        "-KEVIN PIZA"
+        "-CARLOS VILLACREZ\n"
+        "-ANDREINA MENDOZA\n"
+        "-CARLOS VILLACREZ\n"
+        "-CARLOS QUISHPI\n"
+        "-NATHALY ALVAREZ\n"
+        "-NAHOMY CAMACHO\n"
+        "-VICTOR FARFAN\n\n"
+        "CURSOS:\n\n"
+        "3-4  3-3\n\n"
+        "PROFESORA:\n\n"
+        "GISELLE NUNES"
+    </string>
+    <string name="action_settings">Settings</string>
+
+</resources>

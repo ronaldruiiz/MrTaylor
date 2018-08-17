@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/calc.horizontal.margin"
+    android:paddingRight="@dimen/calc.horizontal.margin"
+    android:paddingTop="@dimen/calc.vertical.margin"
+    android:paddingBottom="@dimen/calc.vertical.margin"
+    android:background="@color/colorBrackground"
+    tools:context=".views.CalculadoraActivity">
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/etSerie"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:maxLength="66"
+        android:background="@drawable/btn_numeros"
+        android:backgroundTint="@color/colorInput"
+        />
+    <Button
+        android:id="@+id/btnResultado"
+        android:onClick="executeResults"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/etSerie"
+        android:backgroundTint="@color/colorBtns"
+        android:background="@drawable/btn_numeros"
+        android:text="Enviar"
+        />
+
+    <ImageView
+        android:src="@drawable/ic_aplicacion"
+        android:paddingTop="60dp"
+        android:layout_centerInParent="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+</RelativeLayout>
